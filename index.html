@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-player">
+        <!-- Heading -->
+        <h1>🎵 Music Player</h1>
+        <!-- Song Image -->
+        <div class="song-image">
+            <img id="songImage" src="images/img1.jpg" alt="Song Cover">
+        </div>
+        <!-- Song Information -->
+        <div class="song-info">
+            <h2 id="songTitle">Song Title</h2>
+            <p id="artistName">Artist Name</p>
+        </div>
+        <!-- Progress -->
+        <div class="progress-container">
+            <span id="currentTime">00:00</span>
+            <input type="range" id="progressBar" value="0" min="0" max="100">
+            <span id="duration">00:00</span>
+        </div>
+        <!-- Controls -->
+        <div class="controls">
+            <button id="previousBtn">⏮️</button>
+            <button id="playBtn">▶️</button>
+            <button id="nextBtn">⏭️</button>
+        </div>
+        <!-- Volume -->
+        <div class="volume-container">
+            <span id="volumeIcon">🔊</span>
+            <input type="range" id="volumeBar" min="0" max="1" step="0.01" value="1">
+        </div>
+        <!-- Playlist -->
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul id="playlist"></ul>
+        </div>
+        <!-- Audio -->
+        <audio id="audio"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Music image:<img id="songImage">JS baad mein is image ko change karega.
+Song title:<h2 id="songTitle">JavaScript yahan song ka naam dalega.e:gPerfect -->
+<!-- Artist:<p id="artistName">Example:Ed Sheeran
+Play button:<button id="playBtn">▶</button>
+JavaScript is button ko functionality dega.
+Next:<button id="nextBtn">⏭️</button>
+Previous:<button id="previousBtn">⏮️</button> -->
+<!-- Variables
+↓
+Arrays
+↓
+Objects
+↓
+Functions
+↓
+if / else
+↓
+forEach()
+↓
+DOM
+↓
+querySelector
+↓
+getElementById
+↓
+createElement
+↓
+appendChild
+↓
+addEventListener
+↓
+Events
+↓
+Audio API
+↓
+Time handling
+↓
+Range input
+↓
+Keyboard events
+↓
+CSS classes -->
